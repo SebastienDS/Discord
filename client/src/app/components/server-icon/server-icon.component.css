@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 5px 0px;
+    background-color: orange;
+    border-radius: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    border-radius: 15px;
+}
+
+.server-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    min-width: 125px;
+    min-height: 50px;
+    padding: 10px;
+    left: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.server-name:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left:-16px;
+    border: solid 8px transparent;
+    border-right-color: rgb(40, 40, 40);
+    z-index: 1;
+}

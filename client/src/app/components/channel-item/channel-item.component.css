@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(164, 164, 164);
+}
+
+.container:hover {
+    background-color: rgb(54, 57, 63);
+    color: white;
+    border-radius: 5px;
+}
+
+.icon {
+    padding: 0px 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.channel-name {
+    font-size: 16px;
+}

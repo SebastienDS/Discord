@@ -1,0 +1,7 @@
+<div class="container" [class.transparent]="!is_online">
+    <div class="icon-container">
+        <div class="icon"></div>
+        <div class="online" *ngIf="is_online"></div>
+    </div>
+    <div class="pseudo">{{ pseudo }}</div>
+</div>
